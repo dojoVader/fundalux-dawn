@@ -1,0 +1,24 @@
+{
+  "name": "fundalux-dawn",
+  "version": "1.0.0",
+  "description": "A Shopify variant of Dawn built with TypeScript and Tailwind",
+  "main": "index.js",
+  "repository": "https://github.com/dojoVader/fundalux-dawn.git",
+  "author": "x64 <okeowoaderemi@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "fast-glob": "^3.3.2",
+    "postcss": "^8.4.49",
+    "tailwind": "^4.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "shopify": "shopify theme dev --store=REPLACE_WITH_YOUR_STORE",
+    "build": "tsc && vite build"
+  }
+}
