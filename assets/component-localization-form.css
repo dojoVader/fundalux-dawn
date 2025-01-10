@@ -1,3 +1,7 @@
+:root{
+  --color-text: white;
+}
+
 .localization-form {
   display: flex;
   flex-direction: column;
@@ -89,7 +93,7 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  color: rgb(var(--color-foreground));
+  color: var(--color-text);
   width: 100%;
   padding-right: 4rem;
   padding-bottom: 1.5rem;

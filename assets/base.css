@@ -126,8 +126,12 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .footer.page-width,.footer__content-top.page-width {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .page-width--narrow {

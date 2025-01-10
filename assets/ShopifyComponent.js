@@ -1,0 +1,1 @@
+class o extends HTMLElement{constructor(){super();const t=this.querySelector("button");t&&(t.textContent="Buy now"),this.addEventListener("click",e=>{alert("You clicked on a ShopifyComponent"),e.preventDefault(),e.stopPropagation()})}}customElements.define("shopify-component",o);

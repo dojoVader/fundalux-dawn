@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "settings_schema": {
     "global": {
@@ -447,6 +456,19 @@
         "info": "Standard-styled cards have no borders when an image shape is active."
       }
     },
+    "top-bar":{
+       "name": "Top Bar",
+       "settings": {
+         "signInText": {
+           "label": "Sign in",
+           "default": "Sign in"
+         },
+         "createAccountText": {
+           "label": "Create an account",
+           "default": "Create an account"
+         }
+       }
+    },
     "announcement-bar": {
       "name": "Announcement bar",
       "settings": {
@@ -485,9 +507,11 @@
         "announcement": {
           "name": "Announcement",
           "settings": {
+
             "text": {
               "label": "Text",
-              "default": "Welcome to our store"
+              "default": "Welcome to our store",
+
             },
             "text_alignment": {
               "label": "Text alignment",
@@ -978,6 +1002,14 @@
     "footer": {
       "name": "Footer",
       "blocks": {
+        "footer_details": {
+          "name": "Footer Details",
+          "settings": {
+            "footer_image": {
+              "label": "Footer Logo"
+            }
+          }
+        },
         "link_list": {
           "name": "Menu",
           "settings": {
@@ -1101,7 +1133,17 @@
           },
           "options__4": {
             "label": "Middle center"
+          },
+          "right_position": {
+            "label": "Menu Right"
+          },
+          "center_position":{
+            "label": "Center"
+          },
+          "bottom_menu": {
+            "label": "Bottom menu"
           }
+
         },
         "menu": {
           "label": "Menu"

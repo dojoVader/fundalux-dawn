@@ -1,0 +1,18 @@
+/* CSS Variables */
+
+:root{
+    --top-bar-height: 38px;
+    --font-size: 16px;
+    
+}
+.top-bar-section.page-width{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.top-bar-section{
+    background: var(--top-bar-menu);
+    font-size: var(--font-size);
+    z-index: 9999999;
+    position: relative;
+    
+}

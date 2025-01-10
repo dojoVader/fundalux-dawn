@@ -1,7 +1,7 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
+    "theme_name": "Fundalux Store",
     "theme_version": "15.2.0",
     "theme_author": "Shopify",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
@@ -32,7 +32,17 @@
         "info": "t:settings_schema.logo.settings.favicon.info"
       }
     ]
-  },
+  },{
+  "name": "t:sections.top-bar.name",
+  "settings": [
+    {
+      "type": "color",
+      "id": "topbar_background",
+      "label": "Background",
+      "default": "#434757"
+    }
+  ]
+},
   {
     "name": "t:settings_schema.colors.name",
     "settings": [
@@ -156,7 +166,7 @@
         "id": "page_width",
         "min": 1000,
         "max": 1600,
-        "step": 100,
+        "step": 10,
         "default": 1200,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
